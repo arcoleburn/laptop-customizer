@@ -2,10 +2,10 @@ import React, { Component } from "react";
 
 // Normalizes string as a slug - a string that is safe to use
 // in both URLs and html attributes
-import slugify from "slugify";
+
 
 import "./App.css";
-import AppHeader from "./header";
+import AppHeader from "./header-nav/header";
 import Customize from "./customize/customize";
 import Summary from './summary/summary'
 
